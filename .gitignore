@@ -1,0 +1,8 @@
+target/
+.idea/
+.settings/
+*.DS_Store
+.scannerwork/
+*.class
+*.log
+*.bsp
