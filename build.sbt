@@ -5,5 +5,3 @@ lazy val client = project.in(file("mod_client")).dependsOn(common)
 lazy val server = project.in(file("mod_server")).dependsOn(common)
 
 lazy val cams = project.in(file(".")).aggregate(common, client, server)
-
-enablePlugins(JibPlugin)
